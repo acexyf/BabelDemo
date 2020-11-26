@@ -1,1 +1,1 @@
-# @babel/cli
+# @babel/cli 命令行

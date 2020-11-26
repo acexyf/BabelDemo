@@ -1,0 +1,1 @@
+let fun = () => console.log('hello test1.js')

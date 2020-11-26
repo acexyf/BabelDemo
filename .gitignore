@@ -2,3 +2,6 @@
 */package-lock.json
 */yarn-lock.json
 */bundle.js
+*/*.map
+*/lib
+*/dist
