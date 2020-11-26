@@ -6,12 +6,17 @@
   "scripts": {
     "build": "npx babel index.js -o bundle.js -w -s",
     "build:dir": "npx babel src -d dist --ignore src/**/*.spec.js",
+    "build:copy": "npx babel src -d dist --copy-files",
+    "build:plugin": "npx babel index.js -o bundle.js --plugins @babel/plugin-transform-arrow-functions",
+    "build:preset":"npx babel index.js -o bundle.js --presets @babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3"
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/preset-env": "^7.12.7"
   }
 }
