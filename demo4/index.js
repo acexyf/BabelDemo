@@ -1,19 +1,8 @@
-let fun = () => console.log("hello babel.js");
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-  say() {
-    console.log(`my name is：${this.name}`);
-  }
-}
-const tom = new Person("tom");
-tom.say();
+import '@babel/polyfill'
+[1, 5, 10, 15].filter(function(value) {
+  return value > 9;
+})
 
 let promise = new Promise((resolve, reject)=>{
     resolve(1)
-})
-
-promise.then(()=>{
-    
 })
