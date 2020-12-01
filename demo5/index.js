@@ -1,8 +1,3 @@
-[].filter((elem) => {
-  return elem > 5;
-});
-
-Object.assign({},{})
 
 class Person {
   constructor(name) {
