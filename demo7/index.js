@@ -1,8 +1,4 @@
-// import "core-js";
-
-Object.assign({}, {});
-
-[(1, 5, 10, 15)].filter(function (value) {
+[1, 5, 10, 15].filter((value) => {
   return value > 9;
 });
 

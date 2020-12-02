@@ -1,5 +1,5 @@
 {
-  "name": "demo6",
+  "name": "demo7",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,7 @@
   "devDependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
-    "@babel/plugin-transform-object-assign": "^7.12.1",
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.7"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "@babel/runtime": "^7.12.5"
   }
 }
